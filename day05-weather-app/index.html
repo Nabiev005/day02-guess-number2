@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App||AiNabi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤 Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Шаарды жазыңыз..." />
+    <button onclick="getWeather()">Издөө</button>
+    <div id="weatherResult" class="hidden">
+      <h2 id="cityName"></h2>
+      <img id="icon" src="" alt="" />
+      <p id="temp"></p>
+      <p id="description"></p>
+    </div>
+    <p id="error" class="error"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
